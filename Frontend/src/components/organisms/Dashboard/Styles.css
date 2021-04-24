@@ -1,0 +1,282 @@
+#MainContainer {
+    height: 100%;
+    background-color: #F9C209;
+}
+
+.InputFeild {
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 50px;
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.InputFeild:focus {
+    outline: none !important;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.SearchContainer {
+    height: auto;
+    margin-left: 1%;
+    margin-top: 5px;
+    width: 98%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.HeadingSearch {
+    color: gray;
+    margin-top: 17px;
+    font-size: 80%;
+    font-weight: 400;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.SubCataSearch {
+    margin-top: 17px;
+    border-radius: 20px;
+    align-self: center;
+    background-color: #C0C0C1;
+    border: 2px solid #C0C0C1;
+    text-align: center;
+    width: 85%;
+    font-size: 12px;
+    height: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.SubCataSearch:focus {
+    outline: none !important;
+    margin-top: 17px;
+    border-radius: 20px;
+    align-self: center;
+    background-color: #C0C0C1;
+    border: 1.6px solid rgba(255, 51, 0, 0.822);
+    text-align: center;
+    width: 85%;
+    font-size: 12px;
+    height: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+:-ms-input-placeholder {
+    color: peachpuff;
+    font-size: 28px;
+}
+
+.SearchButton {
+    float: left;
+    margin-top: 20px;
+    background-color: #F9C209;
+    border: 2px solid #F9C209;
+    border-radius: 10px;
+    height: 28px;
+    width: 70%;
+}
+
+.ButtonText {
+    color: white;
+    font-size: 70%;
+    margin-top: 4px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.Cancel {
+    margin-top: 25px;
+    font-size: 80%;
+    margin-left: 10%;
+    color: #F9C209;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.ModelTitle {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #F9C209;
+    font-weight: 500;
+}
+
+.ModelCancel {
+    color: red;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.ModelSubmite {
+    color: #F9C209;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.Modelfeild {
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: #C0C0C1;
+    border: 2px solid #C0C0C1;
+    font-size: 10px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.Modelfeild:focus {
+    outline: none !important;
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: #C0C0C1;
+    border: 1.6px solid rgba(255, 51, 0, 0.822);
+    font-size: 10px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.ModelfeildError {
+    outline: none !important;
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: #C0C0C1;
+    border: 1.6px solid rgba(255, 51, 0, 0.822);
+    font-size: 10px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Model Listing  */
+
+.ListHeadingContainer {
+    width: 100%;
+    height: 85px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    background-color: #FFFFFF;
+    border: 2px solid #F9C209;
+}
+
+.ListContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    border: 2px solid #F9C209;
+}
+
+.ListID {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #F9C209;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ListName {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #00D3A7;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ListClint {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #3197F7;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ListNum {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #FB716E;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Listexperience {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #8C39C3;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Listskills {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #FFA701;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Listlocations {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #0091E7;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ListstartDate {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #8C39C3;
+    font-weight: 500;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ListstartDateValue {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #8C39C3;
+    font-weight: 500;
+    font-size: 90%;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ApplyImage {
+    width: 100%;
+    height: 60%;
+}
+
+.ListButton {
+    float: right;
+    background-color: #F9C209;
+    border: 2px solid #F9C209;
+    border-radius: 10px;
+    height: 28px;
+    width: 90%;
+    margin-bottom: 10px;
+}

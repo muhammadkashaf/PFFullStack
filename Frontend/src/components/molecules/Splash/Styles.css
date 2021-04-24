@@ -1,0 +1,71 @@
+#LogoImage {
+    height: 100px;
+    width: 90%;
+}
+
+#LeftLoginButton {
+    float: right;
+    margin-top: 34px;
+    border-radius: 2px;
+    align-self: center;
+    background-color: #F9C209;
+    border: 2px solid #F9C209;
+}
+
+#RightLoginButton {
+    float: left;
+    margin-top: 34px;
+    border-radius: 2px;
+    align-self: center;
+    background-color: #F9C209;
+    border: 1px solid #F9C209;
+}
+
+.LoginText {
+    color: aliceblue;
+    font-size: 100%;
+    margin-top: 1px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.WelcomeText {
+    text-align: center;
+    margin-top: 120px;
+    font-weight: 750;
+    font-size: 450%;
+    color: antiquewhite;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.CommunityText {
+    text-align: center;
+    font-weight: 750;
+    font-size: 200%;
+    color: antiquewhite;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.Line {
+    width: 53%;
+    height: .4px;
+    background-color: azure;
+}
+
+.JoinButton {
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 35%;
+    width: 30%;
+    height: 45px;
+    background-color: white;
+    border: 1px solid #F9C209;
+}
+
+.JoinText {
+    text-align: center;
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 100%;
+    color: #F9C209;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
